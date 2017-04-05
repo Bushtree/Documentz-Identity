@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  documentz.identity:
+    image: documentz.identity
+    build:
+      context: ./Documentz.Identity
+      dockerfile: Dockerfile
